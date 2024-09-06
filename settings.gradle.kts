@@ -35,3 +35,6 @@ rootProject.name = "My Application"
 include(":app")
 
 include(":mylibrary")
+include(":mylibrary2")
+project(":mylibrary").projectDir = file("projects/mylibrary")
+project(":mylibrary2").projectDir = file("projects/mylibrary2")
