@@ -33,7 +33,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":mylibrary2"))
+    implementation(project(":b"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
