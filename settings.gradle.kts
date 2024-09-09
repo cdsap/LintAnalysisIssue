@@ -36,6 +36,7 @@ include(":app")
 
 include(":mylibrary")
 include(":mylibrary2")
+println(rootDir)
 project(":mylibrary").projectDir = File("${rootDir}/mylibrary/mylibrary")
 project(":mylibrary2").projectDir = File("${rootDir}/mylibrary2/mylibrary2")
 
