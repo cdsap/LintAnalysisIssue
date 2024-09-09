@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
 }
-
+version = "0.1-SNAPSHOT"
 android {
     namespace = "com.example.mylibrary2"
     compileSdk = 34
