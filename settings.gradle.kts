@@ -36,6 +36,6 @@ include(":app")
 
 include(":mylibrary")
 include(":mylibrary2")
-project(":mylibrary").projectDir = file("mylibrary/mylibrary")
-project(":mylibrary2").projectDir = file("mylibrary2/mylibrary2")
+project(":mylibrary").projectDir = File("${rootDir}/mylibrary/mylibrary")
+project(":mylibrary2").projectDir = File("${rootDir}/mylibrary2/mylibrary2")
 
